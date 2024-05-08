@@ -1,0 +1,97 @@
+[env]
+    TERM = "xterm-256color"
+[window]
+  opacity=1
+  [window.dimensions]
+    columns=32
+    lines=2
+  [window.padding]
+    x=6
+    y=6
+[scrolling]
+  history=5000
+[font]
+  size=14.0
+  [font.normal]
+    family = "JetBrainsMono Nerd Font"
+    style="Regular"
+  [font.bold]
+    family = "JetBrainsMono Nerd Font"
+    style="Bold"
+  [font.italic]
+    family = "JetBrainsMono Nerd Font"
+    style="Italic"
+  [font.bold_italic]
+    family = "JetBrainsMono Nerd Font"
+    style="Bold Italic"
+
+[colors]
+  draw_bold_text_with_bright_colors = true
+  #catppuccin_mocha
+  [colors.primary]
+    background="#11111b" #catppuccin
+    # background="#282a36" #dracula-original
+    foreground="#cdd6f4"
+
+  [colors.cursor]
+    text= "#11111b" # base
+    cursor= "#F5E0DC" # rosewater
+  [colors.vi_mode_cursor]
+      text= "#11111b" # base
+      cursor= "#B4BEFE" # lavender
+  [colors.selection]
+    text= "#1E1E2E" # base
+    background= "#F5E0DC" # rosewater
+  [colors.normal]
+    black = "#45475A"
+    red = "#F38BA8"
+    green = "#A6E3A1"
+    yellow = "#F9E2AF"
+    blue = "#89B4FA"
+    magenta = "#F5C2E7"
+    cyan = "#94E2D5"
+    white = "#BAC2DE"
+
+  [colors.bright]
+    black = "#585B70"
+    red = "#F38BA8"
+    green = "#A6E3A1"
+    yellow = "#F9E2AF"
+    blue = "#89B4FA"
+    magenta = "#F5C2E7"
+    cyan = "#94E2D5"
+    white = "#A6ADC8"
+
+  [colors.dim]
+    black = "#45475A"
+    red = "#F38BA8"
+    green = "#A6E3A1"
+    yellow = "#F9E2AF"
+    blue = "#89B4FA"
+    magenta = "#F5C2E7"
+    cyan = "#94E2D5"
+    white = "#BAC2DE"
+
+  [[colors.indexed_colors]]
+    index = 16
+    color = "#FAB387"
+
+  [colors.search.matches]
+    foreground = "#1E1E2E"
+    background = "#A6ADC8"
+
+  [colors.search.focused_match]
+    foreground = "#1E1E2E"
+    background = "#A6E3A1"
+
+  [[colors.indexed_colors]]
+    index = 17
+    color = "#F5E0DC"
+  [colors.hints.start]
+    foreground = "#1E1E2E"
+    background = "#F9E2AF"
+
+  [colors.hints.end]
+    foreground = "#1E1E2E"
+    background = "#A6ADC8"
+
